@@ -26,7 +26,6 @@ export default function ContactForm () {
     const dispatch = useDispatch()
 
     function onSubmit(value, action) {
-        console.log(value)
         const user = {
             ...userEdit,
             "name": value.name,

@@ -9,7 +9,6 @@ export default function User({ user }) {
     }
 
     function onEditBtnClick() {
-        console.log(user)
         dispatch(edit(user))
     }
 
